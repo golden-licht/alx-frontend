@@ -1,0 +1,35 @@
+/* comment */
+:root {
+  --font-family-base: 'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif'; 
+  --font-family-title: 'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif'; 
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+body {
+  color: #161616;
+  font-family: var(--font-family-base);
+}
+
+h6 {
+  font-family: var(--font-family-title);
+}
+
+a {
+  color: #161616
+}
+
+.visually-hidden {
+  display: none;
+}
+
+.card-category {
+  color: #D73953;
+}
+
+.section-tagline {
+  color: #D73953;
+}
